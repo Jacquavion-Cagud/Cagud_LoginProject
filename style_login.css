@@ -1,0 +1,89 @@
+#MainHeader {
+    padding: 20px;
+    width: min-content;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(0, 0, 0);
+    font: medium;
+    font-size: 50px;
+    background-color: chartreuse;
+    border-radius: 20px 20px 20px 20px;
+    border: 3px solid black;
+}
+
+body {
+    background-image: url(gogreen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#LoginSection {
+    padding: 20px;
+    background-color: white;
+    width: min-content;
+}
+
+button {
+    padding: 20px;
+    background-color: white;
+    width: auto;
+}
+
+article {
+    padding: 20px;
+    width: min-content;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px 20px 20px 20px;
+    border: 2px solid olivedrab;
+    margin-right: auto;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+#Content {
+    padding: 20px;
+    background-color: white;
+    width: 800px;
+    height: 350px;
+    font-size: 30px;
+    border-radius: 20px 20px 20px 20px;
+    border: 2px solid olivedrab;
+    margin-left: auto;
+    margin-right: 100px;
+    margin-top: 100px;
+    transform: translateY(-425px);
+}
+
+#footerindex {
+    padding: 20px;
+    background-color:chartreuse;
+    margin-bottom: 0px;
+}
+
+#indexlist {
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+    bottom: 0;
+  
+}
+
+#indexlist1 { 
+    background: url('spriteytfb.png') no-repeat 0px -1px; 
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+  
+}
+
+#indexlist2 {
+    background: url('spriteytfb.png') no-repeat -50px 0px; 
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+#indexlist a:hover li {
+    opacity: 50%;
+}
